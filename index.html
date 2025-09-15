@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая №1</title>
+    <link rel="stylesheet" href="p1_style.css">
+</head>
+<body>
+    <h1>Определение типа треугольника по трём сторонам</h1>
+    <h2>Введите стороны треугольника:</h2>
+    <div class="side_input">
+        <p>Сторона №1:</p>
+        <input type="text" id="side1" class="side">
+        <p>Сторона №2:</p>
+        <input type="text" id="side2" class="side">
+        <p>Сторона №3:</p>
+        <input type="text" id="side3" class="side">
+    </div>
+    <div id="result" class="result"></div>
+    <div id="error" class="error"></div>
+    <div class="buttons">
+        <button id="btnType">Узнать тип треугольника</button>
+        <button id="btnClear">Очистить стороны и результат</button>
+    </div>
+
+    <script src="p1_script.js"></script>
+</body>
+</html>
